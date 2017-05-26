@@ -1,0 +1,1 @@
+Portlet ---> MX_UNO_PBO_LandingSMS

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" id="mx.com.amx.unotv.landing.portlet.MX_UNO_PBO_LandingSMSPortlet.b0237c6635">
+	<portlet>
+		<portlet-name>MX_UNO_PBO_LandingSMS</portlet-name>
+		<display-name xml:lang="es">MX_UNO_PBO_LandingSMS</display-name>
+		<display-name>MX_UNO_PBO_LandingSMS</display-name>
+		<portlet-class>mx.com.amx.unotv.landing.portlet.MX_UNO_PBO_LandingSMSPortlet</portlet-class>
+		<init-param>
+			<name>wps.markup</name>
+			<value>html</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<supported-locale>es</supported-locale>
+		<resource-bundle>mx.com.amx.unotv.landing.portlet.nl.MX_UNO_PBO_LandingSMSPortletResource</resource-bundle>
+		<portlet-info>
+			<title>MX_UNO_PBO_LandingSMS</title>
+			<short-title>MX_UNO_PBO_LandingSMS</short-title>
+			<keywords>MX_UNO_PBO_LandingSMS</keywords>
+		</portlet-info>
+	</portlet>
+	<default-namespace>http://MX_UNO_PBO_LandingSMS/</default-namespace>
+</portlet-app>

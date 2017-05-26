@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>MX_UNO_PBO_LandingSMS</display-name>
+	<servlet>
+		<description>
+		</description>
+		<display-name>GeneraHtmlServlet</display-name>
+		<servlet-name>GeneraHtmlServlet</servlet-name>
+		<servlet-class>
+		mx.com.amx.unotv.landing.servlet.GeneraHtmlServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>VistaPreviaServlet</display-name>
+		<servlet-name>VistaPreviaServlet</servlet-name>
+		<servlet-class>
+		mx.com.amx.unotv.landing.servlet.VistaPreviaServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GeneraHtmlServlet</servlet-name>
+		<url-pattern>/GeneraHtmlServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>VistaPreviaServlet</servlet-name>
+		<url-pattern>/VistaPreviaServlet</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+</web-app>
